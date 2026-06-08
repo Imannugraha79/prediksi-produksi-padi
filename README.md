@@ -43,5 +43,11 @@ Dengan metode ini, setiap jendela waktu menghasilkan persamaan unik untuk mempro
 
 1. **Clone Repositori Ini**
    ```bash
-   git clone [https://github.com/USERNAME_ANDA/prediksi-produksi-padi.git](https://github.com/USERNAME_ANDA/prediksi-produksi-padi.git)
+   git clone [https://github.com/Imannugraha79/prediksi-produksi-padi.git](https://github.com/Imannugraha79/prediksi-produksi-padi.git)
    cd prediksi-produksi-padi
+
+   # Memasang dependensi pustaka lingkungan visualisasi & olah data
+pip install -r requirements.txt
+
+# Menjalankan program utama analisis regresi linear
+python main.py
