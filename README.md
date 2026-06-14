@@ -51,29 +51,28 @@ Buka terminal, Git Bash, atau Command Prompt, lalu jalankan perintah berikut unt
 git clone [https://github.com/Imannugraha79/prediksi-produksi-padi.git](https://github.com/Imannugraha79/prediksi-produksi-padi.git)
 cd prediksi-produksi-padi
 ```
-2. Memasang Dependensi (Opsional)
+### 2. Memasang Dependensi (Opsional)
 Program ini menggunakan pustaka pandas dan matplotlib. Anda bisa memasangnya secara manual menggunakan perintah:
 
 Bash
 pip install pandas matplotlib
 💡 Catatan: Script main.py sudah dilengkapi dengan fitur auto-install. Jika pustaka di atas belum terpasang di perangkat Anda, program akan mencoba mengunduhnya secara otomatis saat pertama kali dijalankan.
 
-3. Memastikan File Dataset
+### 3. Memastikan File Dataset
 Pastikan file data historis data_regresi_padi.csv berada di dalam folder yang sama dengan file main.py. Jika file tersebut hilang atau dipindahkan, program akan menampilkan pesan error.
 
-4. Menjalankan Program Utama
+### 4. Menjalankan Program Utama
 Eksekusi perintah berikut di terminal Anda untuk memulai analisis regresi linear dan visualisasi data:
 
 Windows:
-
 Bash
 python main.py
-macOS / Linux:
 
+macOS / Linux:
 Bash
 python3 main.py
 
-5. Hasil Akhir (Output)
+### 5. Hasil Akhir (Output)
 Terminal: Akan menampilkan perhitungan manual Sliding Window (Jendela 1 hingga 3) beserta hasil akhir prediksi produksi padi untuk tahun 2026.
 
 Visualisasi: Program akan otomatis membuka jendela baru yang menampilkan grafik perbandingan antara Data Aktual dan Hasil Prediksi.
