@@ -41,8 +41,6 @@ Dengan metode ini, setiap jendela waktu menghasilkan persamaan unik untuk mempro
 
 ## 🚀 Cara Menjalankan Program
 
-## 🚀 Cara Menjalankan Program
-
 Ikuti langkah-langkah di bawah ini untuk menjalankan program prediksi produksi padi di komputer Anda:
 
 ### 1. Kloning Repositori
